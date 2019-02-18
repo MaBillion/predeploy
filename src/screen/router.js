@@ -5,7 +5,6 @@ import Home from './Home';
 
 export default class extends React.Component {
     render() {
-        console.log(Home)
         return (
             <div>
                 <Route exact={true} path='/' render={()=><Redirect to='/Home' />}/>
